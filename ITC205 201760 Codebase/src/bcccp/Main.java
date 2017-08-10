@@ -1,7 +1,6 @@
 package bcccp;
-
+// importing from java library 
 import java.awt.EventQueue;
-
 import bcccp.carpark.CarSensor;
 import bcccp.carpark.Carpark;
 import bcccp.carpark.Gate;
@@ -20,6 +19,7 @@ import bcccp.tickets.season.SeasonTicket;
 import bcccp.tickets.season.SeasonTicketDAO;
 import bcccp.tickets.season.UsageRecordFactory;
 
+// adding main method 
 public class Main {
 
 	public static void main(String[] args) {
