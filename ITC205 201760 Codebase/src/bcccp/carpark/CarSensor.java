@@ -75,6 +75,9 @@ public class CarSensor extends JFrame implements ICarSensor {
 		detectorButton.setBackground(Color.RED);
 		detectorButton.setText("No Car Detected");
 		contentPane.add(detectorButton);
+		
+		if(1==1)
+			int x=0;
 	}
 	
 	public void registerResponder(ICarSensorResponder responder) {
