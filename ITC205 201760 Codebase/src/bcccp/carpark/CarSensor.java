@@ -76,6 +76,7 @@ public class CarSensor extends JFrame implements ICarSensor {
 		detectorButton.setText("No Car Detected");
 		contentPane.add(detectorButton);
 		
+		/*Dilanka Test*/
 		if(1==1)
 			int x=0;
 	}
