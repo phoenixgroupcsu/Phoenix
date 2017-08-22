@@ -8,6 +8,7 @@ import bcccp.carpark.ICarparkObserver;
 import bcccp.carpark.IGate;
 import bcccp.tickets.adhoc.IAdhocTicket;
 
+/*This class controll the entrance of the carpark*/
 public class EntryController 
 		implements ICarSensorResponder,
 				   ICarparkObserver,
