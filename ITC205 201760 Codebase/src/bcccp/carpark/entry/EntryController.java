@@ -71,10 +71,10 @@ public class EntryController
 	}
 
 
-
+//This method used to do the carpark event
 	@Override
 	public void carEventDetected(String detectorId, boolean detected) {
-		// TODO Auto-generated method stub
+		log("Car Event Detected: " + detectorId + "Car Detected" + detected);
 		
 	}
 
