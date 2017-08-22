@@ -50,7 +50,7 @@ public class EntryController
 /*This method isses the tickect when new new entry */
 	@Override
 	public void ticketInserted(String barcode) {
-		// TODO Auto-generated method stub
+		this.seasonTicketId =barcode;
 		
 	}
 
