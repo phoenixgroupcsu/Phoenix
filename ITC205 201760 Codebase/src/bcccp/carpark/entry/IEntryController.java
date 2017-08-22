@@ -1,5 +1,5 @@
 package bcccp.carpark.entry;
-
+/*this is comment*/
 public interface IEntryController {
 	
 	public void buttonPushed();
