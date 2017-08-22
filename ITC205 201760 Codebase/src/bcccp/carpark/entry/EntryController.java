@@ -25,7 +25,7 @@ public class EntryController
 	private String seasonTicketId = null;
 	
 	
-
+/*This is constructor of this class and when new entry calls this constructor will call*/
 	public EntryController(Carpark carpark, IGate entryGate, 
 			ICarSensor os, 
 			ICarSensor is,
