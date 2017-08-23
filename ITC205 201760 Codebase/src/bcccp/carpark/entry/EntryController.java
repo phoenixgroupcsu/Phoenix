@@ -46,10 +46,12 @@ public class EntryController
 	}
 
 
-
+/*This method issues a ticket after button pushed*/
 	@Override
 	public void buttonPushed() {
-		// TODO Auto-generated method stub
+		if (state.equals(STATE.WAITING)) {
+		if (!carpark.isFull()) {
+		adhocTicket = carpark.issueAdhocTicket();
 		
 	}
 
