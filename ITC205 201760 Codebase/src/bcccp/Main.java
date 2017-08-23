@@ -5,6 +5,7 @@ import java.awt.EventQueue;
 =======
 
 // this is test comment after file deleted 
+// This is second test
 
 >>>>>>> Bhuvan:Main.java
 import bcccp.carpark.CarSensor;
