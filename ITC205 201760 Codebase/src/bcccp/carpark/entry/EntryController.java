@@ -84,10 +84,14 @@ public class EntryController
 	}
 
 
-
+/*This method hendle tickettaken process*/
 	@Override
 	public void ticketTaken() {
-		// TODO Auto-generated method stub
+	if (state.equals(STATE.ISSUED) || state.equals(STATE.VALIDATED)) {
+	setState(STATE.TAKEN);
+	} else {
+	/*This part have to develope */
+	}	
 		
 	}
 
