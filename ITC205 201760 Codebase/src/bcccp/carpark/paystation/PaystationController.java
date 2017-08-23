@@ -19,7 +19,7 @@ public class PaystationController
 	}
 
 
-
+// This methode use for Add new tickets
 	@Override
 	public void ticketInserted(String barcode) {
 		// TODO Auto-generated method stub
