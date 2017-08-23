@@ -2,6 +2,8 @@ package bcccp;
 
 import java.awt.EventQueue;
 
+// this is test comment. 
+
 import bcccp.carpark.CarSensor;
 import bcccp.carpark.Carpark;
 import bcccp.carpark.Gate;
