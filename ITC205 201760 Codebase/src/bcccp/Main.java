@@ -5,6 +5,7 @@ import java.awt.EventQueue;
 =======
 
 // this is test comment after file deleted 
+// This is third file
 // This is second test
 
 >>>>>>> Bhuvan:Main.java
