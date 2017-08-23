@@ -2,6 +2,8 @@ package bcccp.tickets.adhoc;
 
 import java.util.Date;
 
+
+// this is my first comment here. not code
 public class AdhocTicket implements IAdhocTicket {
 	
 	private String carparkId;
