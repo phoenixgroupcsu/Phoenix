@@ -1,3 +1,10 @@
+/*
+Student name: W.M.M.R.N.Fernando
+Student ID: 11634792
+Subject Name: ITC 515 Professiional programming practice
+Due date: 25 August 2017
+*/
+
 package bcccp.carpark.entry;
 
 import bcccp.carpark.Carpark;
