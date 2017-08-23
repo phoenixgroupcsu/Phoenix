@@ -72,7 +72,14 @@ public class EntryController
 /*This method isses the tickect when new new entry */
 	@Override
 	public void ticketInserted(String barcode) {
-		
+	if (state.equals(STATE.WAITING)) {
+	if (carpark.isSeasonTicketValid(barcode) && !carpark.isSeasonTicketInUse(barcode)) {
+	this.seasonTicketId = barcode;
+	setState(STATE.VALIDATED);
+	}
+	} else {
+	ui.beep();
+	}
 		
 	}
 
