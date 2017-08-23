@@ -72,7 +72,7 @@ public class EntryController
 /*This method isses the tickect when new new entry */
 	@Override
 	public void ticketInserted(String barcode) {
-		this.seasonTicketId =barcode;
+		
 		
 	}
 
