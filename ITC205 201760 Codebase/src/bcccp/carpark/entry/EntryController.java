@@ -138,7 +138,7 @@ public class EntryController
 		
 		
 	}
-
+//Have to implement some more methods to support those methods
 	
 	
 }
