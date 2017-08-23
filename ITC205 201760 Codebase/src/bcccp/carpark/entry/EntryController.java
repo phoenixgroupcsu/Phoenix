@@ -63,7 +63,7 @@ public class EntryController
 		setState(STATE.FULL);
 		}
 		} else {
-		ui.beep();
+		
 		}
 		
 	}
