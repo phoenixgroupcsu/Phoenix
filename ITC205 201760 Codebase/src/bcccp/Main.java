@@ -1,6 +1,12 @@
 package bcccp;
 // importing from java library 
 import java.awt.EventQueue;
+<<<<<<< HEAD:ITC205 201760 Codebase/src/bcccp/Main.java
+=======
+
+// this is test comment after file deleted 
+
+>>>>>>> Bhuvan:Main.java
 import bcccp.carpark.CarSensor;
 import bcccp.carpark.Carpark;
 import bcccp.carpark.Gate;
