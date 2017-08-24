@@ -4,6 +4,7 @@ package bcccp.tickets.season;
 import bcccp.tickets.season.ISeasonTicket;
 import bcccp.tickets.season.IUsageRecordFactory;
 
+/** class SeasonTicketDAO begins from here*/
 public class SeasonTicketDAO implements ISeasonTicketDAO {
 
 	private IUsageRecordFactory factory;
