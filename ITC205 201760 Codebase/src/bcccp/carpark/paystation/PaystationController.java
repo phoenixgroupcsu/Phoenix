@@ -60,6 +60,15 @@ public class PaystationController
             
         }
 
+	 public double calculateCharges(String Barcode){
+            
+           double Amount =0;
+            
+            //Retreive all data by using barcode from database and Calculate Charges
+            Amount=0;
+            
+            return Amount;
+        }
 	
 	
 }
