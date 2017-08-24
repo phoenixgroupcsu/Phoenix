@@ -43,7 +43,7 @@ public class PaystationController
 		
 	}
 	
-	
+	//This method can use for check status of ticket.
 	public boolean checkBarcode(String Barcode){
             
             boolean Date_Time_MatchOK=true;
