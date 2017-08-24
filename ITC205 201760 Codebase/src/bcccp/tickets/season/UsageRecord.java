@@ -6,10 +6,11 @@ public class UsageRecord implements IUsageRecord {
 	long startDateTime;
 	long endDateTime;
 	
-	
-	
+
 	public UsageRecord(String ticketId, long startDateTime) {
-		//TODO Implement constructor
+            //TODO Implement constructor
+            this.ticketId = ticketId;
+			 this.startDateTime = startDateTime;
 	}
 
 
@@ -17,7 +18,7 @@ public class UsageRecord implements IUsageRecord {
 	@Override
 	public void finalise(long endDateTime) {
 		// TODO Auto-generated method stub
-		
+		this.endDateTime = endDateTime; 
 	}
 
 
