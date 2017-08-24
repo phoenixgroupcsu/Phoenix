@@ -18,7 +18,7 @@ public class UsageRecord implements IUsageRecord {
 	@Override
 	public void finalise(long endDateTime) {
 		// TODO Auto-generated method stub
-		
+		this.endDateTime = endDateTime; 
 	}
 
 
