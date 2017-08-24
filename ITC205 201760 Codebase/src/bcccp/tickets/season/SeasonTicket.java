@@ -1,9 +1,11 @@
 package bcccp.tickets.season;
 
+/** importing necessary java utility libraries */
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/** class SeasonTicket begins from here */
 public class SeasonTicket implements ISeasonTicket {
 	
 	private List<IUsageRecord> usages;
