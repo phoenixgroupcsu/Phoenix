@@ -43,7 +43,7 @@ public class ExitController
 	}
 
 
-
+//This method used to set the status when ticketinserted
 	@Override
 	public void ticketInserted(String ticketStr) {
 		if (state.equals(STATE.WAITING)) {
