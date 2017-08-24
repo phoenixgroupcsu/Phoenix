@@ -6,10 +6,10 @@ public class UsageRecord implements IUsageRecord {
 	long startDateTime;
 	long endDateTime;
 	
-	
-	
+
 	public UsageRecord(String ticketId, long startDateTime) {
-		//TODO Implement constructor
+            //TODO Implement constructor
+            this.ticketId = ticketId;
 	}
 
 
