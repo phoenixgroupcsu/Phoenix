@@ -23,10 +23,16 @@ public class PaystationController
 
 	@Override
 	public void ticketInserted(String barcode) {
-		// TODO Auto-generated method stub
+	
+            if (checkBarcode(barcode)==true) {
+                String Out= Double.toString(calculateCharges(barcode));
+                objui.display(Out);
+            }
+            else{
+                objui.display("Go to the office");
+            }
 		
 	}
-
 
 
 	@Override
