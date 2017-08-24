@@ -22,10 +22,10 @@ public class SeasonTicket implements ISeasonTicket {
 			             long startValidPeriod,
 			             long endValidPeriod) {
 		//TDO Implement constructor
-		ticketId = ticketId;
-		carparkId = carparkId;
-		startValidPeriod = startValidPeriod;
-		endValidPeriod = endValidPeriod;
+		this.ticketId = ticketId;
+		this.carparkId = carparkId;
+		this.startValidPeriod = startValidPeriod;
+		this.endValidPeriod = endValidPeriod;
 		
 	}
 
