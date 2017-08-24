@@ -42,6 +42,23 @@ public class PaystationController
 		// TODO Auto-generated method stub
 		
 	}
+	
+	
+	public boolean checkBarcode(String Barcode){
+            
+            boolean Date_Time_MatchOK=true;
+            boolean Ticket_Eject=true;
+            
+            //Retreive all data by using barcode from database and update above details
+            
+            if(Date_Time_MatchOK==true)
+                return false;
+            else if(Ticket_Eject==true)
+                return false;
+            else
+                return true;
+            
+        }
 
 	
 	
