@@ -12,12 +12,13 @@ public class PaystationController
 	private IAdhocTicket  adhocTicket = null;
 	private float charge;
 	
-	
+	ICarpark objcarpark;
+        IPaystationUI objui;
 
 	public PaystationController(ICarpark carpark, IPaystationUI ui) {
-		//TODO Implement constructor
+		objcarpark=carpark;
+                objui=ui;
 	}
-
 
 
 	@Override
