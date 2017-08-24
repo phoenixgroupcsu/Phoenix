@@ -62,6 +62,11 @@ public class ExitController
 				setState(STATE.REJECTED);
 			}
 		} 
+		else {
+			ui.beep();
+			ui.discardTicket();
+			setState(STATE.REJECTED);
+		}
 	}
 
 
