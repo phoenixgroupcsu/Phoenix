@@ -32,12 +32,14 @@ public class SeasonTicket implements ISeasonTicket {
 	@Override
 	public String getTicketId() {
 		// TODO Auto-generated method stub
+		this.ticketId = ticketId;
 		return ticketId;
 	}
 
 	@Override
 	public String getCarparkId() {
 		// TODO Auto-generated method stub
+		//this.carparkId = carparkId;
 		return carparkId;
 	}
 
