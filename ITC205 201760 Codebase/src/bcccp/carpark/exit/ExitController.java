@@ -1,3 +1,11 @@
+/*
+Name : W.M.M.R.N.Fernando
+ID: 11634792
+Assignment: Assignment 2
+Subject name: Professional Programming Practice ITC515
+
+
+*/
 package bcccp.carpark.exit;
 
 import bcccp.carpark.Carpark;
