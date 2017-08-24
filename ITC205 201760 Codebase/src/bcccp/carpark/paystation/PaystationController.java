@@ -26,7 +26,7 @@ public class PaystationController
 	
             if (checkBarcode(barcode)==true) {
                 String Out= Double.toString(calculateCharges(barcode));
-                objui.display(Out);
+                objui.display("Balance :" + Out);
             }
             else{
                 objui.display("Go to the office");
