@@ -22,6 +22,7 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 	public IAdhocTicket createTicket(String carparkId) {
 		// TODO Auto-generated method stub
 		currentTicketNo++;
+		IAdhocTicket ticket = new AdhocTicket(carparkId, currentTicketNo, "BarCode");
 		return null;
 	}
 
