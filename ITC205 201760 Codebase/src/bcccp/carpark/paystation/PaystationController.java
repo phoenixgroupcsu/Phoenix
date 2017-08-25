@@ -42,6 +42,7 @@ public class PaystationController
 	}
 
 
+	//This method use for save payment details agains the ticket
 	@Override
 	public void ticketPaid() {
             
