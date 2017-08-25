@@ -72,6 +72,8 @@ public class PaystationController
 	public void ticketTaken() {
 		// TODO Auto-generated method stub
 		
+		//Check ticket status from updated-dataase.then ticket will take.
+		
 	}
 	
 	//This method can use for check status of ticket.
