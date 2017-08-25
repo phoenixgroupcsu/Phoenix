@@ -200,7 +200,7 @@ public class PaystationUI extends JFrame implements IPaystationUI {
 	}
 
 	
-	
+	//this method use for print ticket .if have any need to change on format ,do cchange this methode.... 
 	@Override
 	public void printTicket(String carparkId, int tNo, long entryTime, long paidTime, float charge, String barcode) {
 		Date entryDate = new Date(entryTime);
