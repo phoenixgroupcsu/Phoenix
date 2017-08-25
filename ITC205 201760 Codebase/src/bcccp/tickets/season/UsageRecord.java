@@ -2,8 +2,12 @@ package bcccp.tickets.season;
 
 public class UsageRecord implements IUsageRecord {
 	
+	// variables for:
+        // ticket id
 	String ticketId;
+	// start date and time of parking session
 	long startDateTime;
+	 // send date and time of parking session
 	long endDateTime;
 	
 
