@@ -2,7 +2,7 @@
 Team Name: Phoenix Group
 Student Name: Rajesh Khadka
 Student ID: 11614964
-Subject Name: ITC 515 Professiional programming practice
+Subject Name: ITC 515 Professional programming practice
 Lecturer: Recep Ulusoy
 */
 
@@ -16,8 +16,6 @@ import bcccp.tickets.season.IUsageRecordFactory;
 public class SeasonTicketDAO implements ISeasonTicketDAO {
 
 	private IUsageRecordFactory factory;
-
-	
 	
 	public SeasonTicketDAO(IUsageRecordFactory factory) {
 		//TOD Implement constructor
@@ -62,6 +60,7 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 	@Override
 	public void recordTicketEntry(String ticketId) {
 		// TODO Auto-generated method stub
+		this.ticketId = ticketid
 		
 	}
 
