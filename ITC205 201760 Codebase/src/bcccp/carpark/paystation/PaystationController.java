@@ -66,6 +66,7 @@ public class PaystationController
             
         }
 
+	//this methode use for calculate parking charges
 	 public double calculateCharges(String Barcode){
             
            double Amount =0;
