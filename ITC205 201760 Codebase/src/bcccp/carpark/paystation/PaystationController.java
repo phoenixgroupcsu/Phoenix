@@ -54,6 +54,13 @@ public class PaystationController
             //Update all payment to database
             
             successPayment=true;
+		
+	    if(successPayment==true){
+                objui.display("Payment success!");
+            }
+            else{
+                objui.display("Payment unsuccess!");
+            }
             
            
 	}
