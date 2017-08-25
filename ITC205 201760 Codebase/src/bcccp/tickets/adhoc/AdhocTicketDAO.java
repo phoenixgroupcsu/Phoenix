@@ -12,6 +12,8 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 	
 	public AdhocTicketDAO(IAdhocTicketFactory factory) {
 		//TODO Implement constructor
+		currentTicketNo = 0;
+		currentAdhocTickets = new ArrayList();
 	}
 
 
