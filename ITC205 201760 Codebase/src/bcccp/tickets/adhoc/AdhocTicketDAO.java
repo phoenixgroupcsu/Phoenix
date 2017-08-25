@@ -1,6 +1,6 @@
 package bcccp.tickets.adhoc;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 
