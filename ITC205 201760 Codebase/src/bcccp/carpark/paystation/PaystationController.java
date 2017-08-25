@@ -44,8 +44,18 @@ public class PaystationController
 
 	@Override
 	public void ticketPaid() {
-		// TODO Auto-generated method stub
-		
+            
+            boolean successPayment=false;
+            String Barcode=""; 
+            
+            //Getdata current barcode of ticket
+            Barcode ="1231332";
+                    
+            //Update all payment to database
+            
+            successPayment=true;
+            
+           
 	}
 
 
