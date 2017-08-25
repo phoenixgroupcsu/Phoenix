@@ -1,13 +1,14 @@
 package bcccp.tickets.adhoc;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 
 	private IAdhocTicketFactory factory;
 	private int currentTicketNo;
 
-	
+	private List<IAdhocTicket> currentAdhocTickets;
 	
 	public AdhocTicketDAO(IAdhocTicketFactory factory) {
 		//TODO Implement constructor
