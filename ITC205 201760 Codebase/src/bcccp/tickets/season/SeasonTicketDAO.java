@@ -1,3 +1,11 @@
+/**
+Team Name: Phoenix Group
+Student Name: Rajesh Khadka
+Student ID: 11614964
+Subject Name: ITC 515 Professiional programming practice
+Lecturer: Recep Ulusoy
+*/
+
 package bcccp.tickets.season;
 
 /** importing necessary package*/
@@ -21,7 +29,7 @@ public class SeasonTicketDAO implements ISeasonTicketDAO {
 	@Override
 	public void registerTicket(ISeasonTicket ticket) {
 		// TODO Auto-generated method stub
-		ticket = ticket;
+		this.ticket = ticket;
 		
 	}
 
