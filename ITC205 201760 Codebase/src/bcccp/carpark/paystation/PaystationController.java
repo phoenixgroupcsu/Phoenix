@@ -29,10 +29,10 @@ public class PaystationController
 
 
 	@Override
-	public void ticketInserted(String barcode) {
+	public void ticketInserted(String strbarcode) {
 	
-            if (checkBarcode(barcode)==true) {
-                String Out= Double.toString(calculateCharges(barcode));
+            if (checkBarcode(strbarcode)==true) {
+                String Out= Double.toString(calculateCharges(strbarcode));
                 objui.display("Balance :" + Out);
             }
             else{
