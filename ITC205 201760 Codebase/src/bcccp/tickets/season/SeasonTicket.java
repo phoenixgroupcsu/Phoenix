@@ -1,3 +1,11 @@
+/**
+Team Name: Phoenix Group
+Student Name: Rajesh Khadka
+Student ID: 11614964
+Subject Name: ITC 515 Professiional programming practice
+Lecturer: Recep Ulusoy
+*/
+
 package bcccp.tickets.season;
 
 /** importing necessary java utility libraries */
