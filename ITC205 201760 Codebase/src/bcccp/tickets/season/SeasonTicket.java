@@ -30,6 +30,8 @@ public class SeasonTicket implements ISeasonTicket {
 			             long startValidPeriod,
 			             long endValidPeriod) {
 		//TDO Implement constructor
+		// initializing variables with data passed in parameters
+		
 		this.ticketId = ticketId;
 		this.carparkId = carparkId;
 		this.startValidPeriod = startValidPeriod;
