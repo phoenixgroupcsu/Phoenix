@@ -21,6 +21,7 @@ public class AdhocTicketFactory implements IAdhocTicketFactory {
 		
 		// returning values
 		return carparkId;
+		return ticketNo;
 		
 	}
 
