@@ -2,7 +2,7 @@
 Team Name: Phoenix Group
 Student Name: Rajesh Khadka
 Student ID: 11614964
-Subject Name: ITC 515 Professiional programming practice
+Subject Name: ITC 515 Professional programming practice
 Lecturer: Recep Ulusoy
 */
 
@@ -18,6 +18,10 @@ public class AdhocTicketFactory implements IAdhocTicketFactory {
 		this.carparkId = carparkId;
 		this.ticketNo = ticketNo;
 		return null;
+		
+		// returning values
+		return carparkId;
+		
 	}
 
 
