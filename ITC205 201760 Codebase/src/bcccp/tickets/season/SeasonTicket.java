@@ -19,8 +19,10 @@ public class SeasonTicket implements ISeasonTicket {
 	private List<IUsageRecord> usages;
 	private IUsageRecord currentUsage = null;
 	
+	// defining variable of type string
 	private String ticketId;
 	private String carparkId;
+	
 	private long startValidPeriod;
 	private long endValidPeriod;
 	
