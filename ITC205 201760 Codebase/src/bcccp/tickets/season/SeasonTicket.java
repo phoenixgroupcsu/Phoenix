@@ -23,6 +23,7 @@ public class SeasonTicket implements ISeasonTicket {
 	private String ticketId;
 	private String carparkId;
 	
+	// defining variable of type long
 	private long startValidPeriod;
 	private long endValidPeriod;
 	
