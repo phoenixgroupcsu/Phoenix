@@ -6,6 +6,7 @@ Subject Name: ITC 515 Professional programming practice
 Lecturer: Recep Ulusoy
 */
 
+//defining package
 package bcccp.tickets.adhoc;
 
 /** class AdhocTicketFactory begins from here*/
