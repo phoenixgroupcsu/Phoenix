@@ -5,7 +5,7 @@ Student ID: 11614964
 Subject Name: ITC 515 Professiional programming practice
 Lecturer: Recep Ulusoy
 */
-
+// defining package
 package bcccp.tickets.season;
 
 /** importing necessary java utility libraries */
