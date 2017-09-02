@@ -9,7 +9,7 @@ Lecturer: Recep Ulusoy
 //defining package
 package bcccp.tickets.adhoc;
 
-/** class AdhocTicketFactory begins from here*/
+/** defining class AdhocTicketFactory, implements IAdhocTicketFactory*/
 public class AdhocTicketFactory implements IAdhocTicketFactory {
 
 	@Override
