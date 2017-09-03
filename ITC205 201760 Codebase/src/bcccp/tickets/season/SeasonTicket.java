@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/** class SeasonTicket begins from here */
+/** defining class SeasonTicket which implements ISeasonTicket */
 public class SeasonTicket implements ISeasonTicket {
 	
 	private List<IUsageRecord> usages;
